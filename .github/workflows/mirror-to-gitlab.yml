@@ -9,6 +9,9 @@ on:
       gitlab_project_path:
         required: true
         type: string
+    secrets:
+      GITLAB_MIRROR_TOKEN:
+        required: true
 
 jobs:
   mirror:
